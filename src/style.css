@@ -1,0 +1,28 @@
+#body{
+    background-color: lightgray;
+}
+.foodList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+
+}
+
+.foodCard {
+    margin: 10px;
+}
+.oneFood {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.foodName {
+    font-weight: 200;
+    font-size: 30px; 
+}
+
+.foodIngredients {
+    box-sizing: 10%;
+}
